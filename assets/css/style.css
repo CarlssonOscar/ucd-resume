@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    background-color: #fafafa;
+}
+
 /*----------------------------------------------Colours */
 
 .bg-color-name-title {
@@ -7,7 +11,13 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fafafa;
+   
+}
+
+.bg-color-personal-info {
+    background-color: #e6dede;
+    color: #000000;
+    font-family: "Exo", sans-serif;
 }
 
 .ui-menu-color-home {
@@ -23,7 +33,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #6e6767;
+    background-color: #7a7676;
 }
 /*----------------------------------------------Special paddings/margins/text */
 
@@ -149,7 +159,7 @@ header {
 /*---------------------------------------------- Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(99, 98, 98, 0.2);
+    background-color: rgba(63, 62, 62, 0.2);
     height: 120px;
 }
 
@@ -213,3 +223,39 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+/*----------------------------------------------Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+} 
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
